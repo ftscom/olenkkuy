@@ -1,0 +1,64 @@
+while(true)do
+if gg.isVible(true)then
+menuk = 1
+gg.setVisible(false)
+end
+
+START = 1
+-garis(-)adalah komentar
+-tidak akan di exsekusi oleh script
+-hanya untuk pengingat
+function START()
+menu = gg.choice(("1⃣[CHEAT1][[📂]]','2⃣[CHEAT2][[📂]]','3⃣[CHEAT3][[📂]]','⭕EXIT⭕1
+if menu == 1 then ch1() end
+if menu == 2 then ch2() end
+if menu == 3 then ch3() end
+if menu == 4 then os.exit() end
+if menu == nil then else end
+menuk =-1
+end
+
+function ch1()
+menuch1 = gg.multiChoice({'antena','withbody','back'},nil,'menu ch1'}
+if menuch1 == nil then else 
+if menuch1[1] == true then ant() end
+if menuch1[2] == true then withb() end
+if menuch1[3] == true then START() end
+end
+end
+function ant()
+- masukan kode antena 
+gg toast('antena active')
+end
+
+-masukan kode body
+gg toast('with body active')
+end
+
+function ch2()
+menuch2 = gg multiChoice({auto headshot','no recoil','back'},nil,'menu ch2')
+if menuch2 == nil then else 
+if menuch2[1] == true then autoh() end
+if menuch2[2] == true then norec() end
+if menuch2[3] == true then START() end
+end
+end
+function autoh()
+-kode autoh heandshot 
+gg toast('ative auto headshot')
+end
+function norec()
+-kode no recoil 
+gg toast('no recoiltive')
+end
+function ch3
+menuch3 = gg multiChoice({'speed run','high juno','back'},nil,'MENU CH3')
+if menuch3 == nil then else 
+if menuch3[1] == true then speed() end
+if menuch3[2] == true then highj() end
+if menuch3[4] == true then START() endeend
+function speed()
+-kode speed jump
+gg toast('active speed run')
+end
+end
